@@ -16,7 +16,7 @@
 <body>
     <section id="wrapper">
         <section id="sidebar">
-            <div class="logo_wrapper">
+            <div class="logo_wrapper" style="cursor: pointer;" onclick="location.href = '/'">
                 <div class="logo">
                     <img src="images/logo.png" alt="MoonTube" />
                 </div>
@@ -35,10 +35,7 @@
             <div class="subscriptions">
                 <div class="sub_title">Subscriptions</div>
                 <ul class="sub_container">
-                    <li class="subs"><a href=""><i class="fa-regular fa-user circleuser"></i> Tricky Computers</a></li>
-                    <li class="subs"><a href=""><i class="fa-regular fa-user circleuser"></i> Fanto, Computers</a></li>
-                    <li class="subs"><a href=""><i class="fa-regular fa-user circleuser"></i> Harshal Patil</a></li>
-                    <li class="subs"><a href=""><i class="fa-regular fa-user circleuser"></i> Aakash Sharma</a></li>
+                    <!-- <li class="subs"><a href=""><img src="images/users/user1.jpg" alt=""> Aakash Sharma</a></li> -->
                 </ul>
             </div>
         </section>
@@ -52,9 +49,12 @@
             <div class="channel_section">
                 <div class="user">
                     <div class="logo">
-                        <i class="fa-regular fa-user circleuser"></i>
+                        <img class="channelPic" src="images/users/user1.jpg" alt="">
                     </div>
-                    <div class="name">Channel Name</div>
+                    <div class="info">
+                        <div class="name">Tricky Computers</div>
+                        <div class="subscriber_count">1.1M Followers</div>
+                    </div>
                 </div>
                 <div class="subscribeBtn">
                     <button id="subscribe">Subscribe</button>
@@ -81,7 +81,7 @@
 
     </section>
 
-
+    <script src="js/users.js"></script>
     <script src="js/videoList.js"></script>
     <script src="js/script.js"></script>
 
