@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoonTube</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="wrapper">
+        <section id="sidebar">
+            <div class="logo_wrapper">
+                <div class="logo">
+                    <img src="images/logo.png" alt="MoonTube" />
+                </div>
+                <h3 class="logo_title">MoonTube</h3>
+            </div>
+            <hr>
+            <div class="menu">
+                <ul>
+                    <li class="active"><a href=""><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href=""><i class="fa-solid fa-clock"></i> Watch Later</a></li>
+                    <li><a href=""><i class="fa-solid fa-clock-rotate-left"></i> History</a></li>
+                    <li><a href=""><i class="fa-solid fa-video"></i> Your Videos</a></li>
+                </ul>
+            </div>
+            <hr>
+            <div class="subscriptions">
+                <div class="sub_title">Subscriptions</div>
+                <ul class="sub_container">
+                    <li class="subs"><a href=""><i class="fa-regular fa-user circleuser"></i> Tricky Computers</a></li>
+                    <li class="subs"><a href=""><i class="fa-regular fa-user circleuser"></i> Fanto, Computers</a></li>
+                    <li class="subs"><a href=""><i class="fa-regular fa-user circleuser"></i> Harshal Patil</a></li>
+                    <li class="subs"><a href=""><i class="fa-regular fa-user circleuser"></i> Aakash Sharma</a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="main">
+            <div class="video_player">
+                <video id="video_box" width="95%" height="auto" controls>
+                    <source id="source_video" src="videos/1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="channel_section">
+                <div class="user">
+                    <div class="logo">
+                        <i class="fa-regular fa-user circleuser"></i>
+                    </div>
+                    <div class="name">Channel Name</div>
+                </div>
+                <div class="subscribeBtn">
+                    <button id="subscribe">Subscribe</button>
+                </div>
+            </div>
+            <div class="video_description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit debitis possimus iusto ea, voluptates
+                consequuntur illum rem qui doloribus nulla. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Ratione tempora sapiente consequuntur quos excepturi, pariatur totam nam minima quisquam adipisci itaque
+                a culpa tempore autem accusantium incidunt deleniti nisi perferendis.
+            </div>
+        </section>
+        <section id="video_list">
+            <!-- <div class="video">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png"
+                    alt="">
+                <h2 class="video_title">Title Goes</h2>
+                <div class="video_stats">
+                    <p class="views">40 views</p>
+                    <p class="ago">7 days ago</p>
+                </div>
+            </div> -->
+        </section>
+
+    </section>
+
+
+    <script src="js/videoList.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
